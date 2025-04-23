@@ -1,0 +1,13 @@
+{
+    "Items": [
+        {
+            "title": "Мотокоса 43",
+            "image": "img/motokosa43.jfif",
+            "pricewithoutdisc": 5499,
+            "pricewithdisc": 4497,
+            "priceithcoup": 4395,
+            "monopay": 6,
+            "privatpay": 8
+        }
+    ]
+}
