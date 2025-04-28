@@ -5,9 +5,37 @@
             "image": "img/motokosa43.jfif",
             "pricewithoutdisc": 5499,
             "pricewithdisc": 4497,
-            "priceithcoup": 4395,
+            "pricewithcoup": 4395,
             "monopay": 6,
             "privatpay": 8
+        },
+        {
+            "title": "Електричний тример 110",
+            "image": "img/trimer.webp",
+            "pricewithoutdisc": 4497,
+            "pricewithdisc": 3498,
+            "pricewithcoup": 3396,
+            "monopay": 5,
+            "privatpay": 7
+        },
+        {
+            "title": "Електрична газонокосарка 32",
+            "image": "img/kosarka.webp",
+            "pricewithoutdisc": 4497,
+            "pricewithdisc": 3297,
+            "pricewithcoup": 3195,
+            "monopay": 7,
+            "privatpay": 9
+        },
+        {
+            "title": "Акумуляторний оприскувач 12 N",
+            "image": "img/oprisk.webp",
+            "pricewithoutdisc": 2190,
+            "pricewithdisc": 1698,
+            "pricewithcoup": 1596,
+            "monopay": 4,
+            "privatpay": 6
         }
+
     ]
 }

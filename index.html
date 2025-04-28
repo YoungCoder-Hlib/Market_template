@@ -7,79 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="contenty">
+    <div id="AddObjButton" class="txt">Add an Object</div>
     <content>
         <div class="zaholovok"> Товари, на які діє знижка</div>
         <div id="objholder" class="objects">
-            <div class="obj">
-                <div class="item-title">Мотокоса 43</div>
-                <div class="item-image">
-                    <img src="img/motokosa43.jfif" alt="O kosa. Na zhivchiku">
-                </div>
-                <div class="parts-pay">
-                    <div><img src="img/mona.png" alt="PLATY">6</div>
-                    <div><img src="img/Privat.png" alt="MENI PLATY">8</div>
-                </div>
-                <div class="price">
-                    <div><span>5499 </span><sup>грн</sup></div>
-                    <div><span>4497 </span><sup>грн</sup></div>
-                </div>
-                <div class="price-bonus">
-                    <div>Ціна за купоном</div>
-                    <div><span>4395 </span><sup>грн</sup></div>
-                </div>
-            </div>
-            <div class="obj">
-                <div class="item-title">Електричний тример 110</div>
-            <div class="item-image">
-                <img src="img/trimer.webp">
-            </div>
-            <div class="parts-pay">
-                <div><img src="img/mona.png" alt="PLATY">6</div>
-                    <div><img src="img/Privat.png" alt="MENI PLATY">8</div>
-            </div>
-            <div class="price">
-                <div><span>4497 </span><sup>грн</sup></div>
-                <div><span>3498 </span><sup>грн</sup></div>
-            </div>
-            <div class="price-bonus">
-                <div>Ціна за купоном</div>
-                <div><span>3396</span><sup>грн</sup></div>
-            </div></div>
-            <div class="obj">
-                <div class="item-title">Електрична газонокосарка 32</div>
-            <div class="item-image">
-                <img src="img/kosarka.webp">
-            </div>
-            <div class="parts-pay">
-                <div><img src="img/mona.png" alt="PLATY">6</div>
-                <div><img src="img/Privat.png" alt="MENI PLATY">8</div>
-            </div>
-            <div class="price">
-                <div><span>4497 </span><sup>грн</sup></div>
-                <div><span>3297</span><sup> грн</sup></div>
-            </div>
-            <div class="price-bonus">
-                <div>Ціна за купоном</div>
-                <div><span>3195</span><sup> грн</sup></div>
-            </div></div>
-            <div class="obj">
-                <div class="item-title">Акумуляторний оприскувач 12 N</div>
-                <div class="item-image">
-                    <img src="img/oprisk.webp">
-                </div>
-                <div class="parts-pay">
-                    <div><img src="img/mona.png" alt="PLATY">6</div>
-                    <div><img src="img/Privat.png" alt="MENI PLATY">8</div>
-                </div>
-                <div class="price">
-                    <div><span>2190</span><sup> грн</sup></div>
-                    <div><span>1698</span><sup> грн</sup></div>
-                </div>
-                <div class="price-bonus">
-                    <div>Ціна за купоном</div>
-                    <div><span>1596 </span><sup>грн</sup></div>
-                </div>
-            </div>
         </div>
         <div class="contactyky">
             <p>с. Варварівка</p>
@@ -92,6 +24,17 @@
             А то це ліцензія, типу?
         </div>
     </content>
+</div>
+    <div id="panel" class="txt">
+        <div> Title: <input type="text" class="txt inpu" maxlength="30"></div>
+        <div> Image link: <input type="text" class="txt inpu"></div>
+        <div> Price without the discount: <input type="text" class="txt inpu" maxlength="10"></div>
+        <div> Price with the discount: <input type="text" class="txt inpu" maxlength="10"></div>
+        <div> Price with the coupon: <input type="text" class="txt inpu" maxlength="10"></div>
+        <div> Monopay: <input type="text" class="txt inpu" maxlength="2"></div>
+        <div> Privatpay: <input type="text" class="txt inpu" maxlength="2"></div>
+        <div id="Add" class="txt">Add the object</div>
+    </div>
 
     <script src="script.js"></script>
 </body>
